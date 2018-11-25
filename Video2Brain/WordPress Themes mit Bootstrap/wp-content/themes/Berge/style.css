@@ -1,0 +1,50 @@
+/*
+Theme Name: Berge
+Theme URI: http://tomro.se
+Author: Thomas Pfeiffer
+Author URI: http://tomro.se
+Description: Testtheme für ein video2brain-Training
+Version: 1.0
+Tags: video2brain, training
+Text Domain: berge
+
+*/
+
+img{
+	max-width:100%;
+	height:auto;
+}
+
+.meta{
+	font-style: italic;
+	font-size:85%;
+	margin:0 0 0.8em 0;
+}
+
+.alignleft{
+	float:left;
+	margin: 0 2em 2em 0;
+}
+
+.alignright{
+	float:right;
+	margin: 0 0 2em 2em;
+}
+
+.wp-caption-text{
+	font-style:italic;
+	font-size:90%;
+}
+
+
+.category_thumbnail{
+	float:left;
+	margin:0 1em 1em 0;
+}
+
+
+ul.sidebar,
+ul.comments,
+ul.children{
+	list-style-type:none;
+}
