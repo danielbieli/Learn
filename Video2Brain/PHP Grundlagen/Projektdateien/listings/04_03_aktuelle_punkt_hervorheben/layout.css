@@ -1,0 +1,14 @@
+.Startseite .Start,
+.Impressumseite .Impressum,
+.Serviceseite .Service {	
+	background-color: yellow;
+}
+ul {
+	list-style: none;
+}
+ul li {
+	display: inline-block;
+}
+ul a {
+	text-decoration: none;
+}

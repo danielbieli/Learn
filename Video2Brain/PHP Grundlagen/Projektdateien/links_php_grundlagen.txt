@@ -1,0 +1,47 @@
+01_01 Grundlagen zu PHP
+http://w3techs.com/technologies/overview/programming_language/all
+http://php.net/usage.php
+https://de.wordpress.org/
+http://www.joomla.de/
+https://contao.org/de/
+http://php.net/manual/de/
+http://php.net/manual/de/refs.database.php
+http://jpgraph.net/
+
+01_03 XAMPP installieren
+https://www.apachefriends.org/de/index.html
+
+01_04 MAMP unter Mac OS nutzen
+http://php.net/manual/de/install.php
+
+02_08 Konstanten definieren
+Magische Konstanten
+http://php.net/manual/de/language.constants.predefined.php
+
+02_12 Operatoren-Rangfolge verstehen
+http://php.net/manual/de/language.operators.precedence.php
+
+05_05 Vergleichsoperatoren nutzen
+http://php.net/manual/en/language.operators.comparison.php
+
+06_03 Alternative Syntax für Schleifen und Verzweigungen
+http://php.net/manual/de/control-structures.for.php
+http://php.net/manual/de/control-structures.while.php
+
+06_05 Tabellen durch Schleifen erzeugen
+https://wiki.selfhtml.org/wiki/HTML/Tabellen/Aufbau_einer_Tabelle
+
+06_07 Fehler aufspüren
+Editoren:
+https://notepad-plus-plus.org/
+http://www.sublimetext.com/
+https://www.jetbrains.com/phpstorm/
+https://netbeans.org/
+
+08_03 Vordefinierte Funktionen für Arrays einsetzen
+http://php.net/manual/de/function.in-array.php
+http://php.net/manual/en/function.sort.php
+
+09_09 Daten per E-Mail verschicken
+http://php.net/manual/de/function.mail.php
+https://github.com/PHPMailer/PHPMailer
