@@ -1,0 +1,13 @@
+#!/bin/bash
+
+$rechner=hostname
+
+if "$rechner" = "marvin"
+then
+	echo "Laufe auf marvin"
+fi
+
+#echo "Archiviere das Verzeichnis ${1}"
+#tar cvfz "${1}.tgz" "${1}"
+
+
