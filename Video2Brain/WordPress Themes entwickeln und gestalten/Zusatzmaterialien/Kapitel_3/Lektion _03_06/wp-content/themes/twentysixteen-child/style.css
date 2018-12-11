@@ -1,0 +1,18 @@
+/*
+ Theme Name:   Twenty Sixteen Child
+ Description:  Twenty Sixtenn Child Theme
+ Author:       Lars Becker
+ Template:     twentysixteen
+ Version:      1.0.0
+
+ */
+
+ @import url("../twentysixteen/style.css");
+
+ .site-branding .site-title a {
+    color: #e10a38;
+}
+
+.site-description {
+    color: #1b4a9a;
+  }
