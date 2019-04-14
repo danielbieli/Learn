@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+  <title>Soundboard</title>
+  <!-- Brauchst du damit Umlaute etc. richtig angezeigt werden -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Deine eigenen Skripte und CSS-Dateien -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="container">
+      <div id="menu"> Soundboard
+      </div>
+      <div id="content" class="container">
+        <div class="row">
+        <button id="btn_horn" class="btn btn-primary btn-lg btn-block" type="submit">Horn 
+          <div id="icon_horn" hidden>
+            <span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span>
+          </div>
+        </button>
+        </div>
+        <div class="row">
+        <button id="btn_klatschen" class="btn btn-primary btn-lg btn-block" type="submit">Klatschen
+          <div id="icon_klatschen" hidden>
+            <span  class="glyphicon glyphicon-volume-up" hidden="true"></span>
+          </div>
+        </button>
+        </div>
+        <div class="row">
+        <button id="btn_tusch" class="btn btn-primary btn-lg btn-block" type="submit">Tusch
+          <div id="icon_tusch" hidden>
+            <span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span>
+          </div>
+        </button>
+        </div>
+        <audio id="horn" src="data/horn.mp3"></audio>
+        <audio id="klatschen" src="data/klatschen.mp3"></audio>
+        <audio id="tusch" src="data/tusch.mp3"></audio>
+      </div>
+      <div id="footer">
+        Soundboard by <a href="http://lerneprogrammieren.de">www.lerneProgrammieren.de</a>
+      </div>
+    </div>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <script>main();</script>
+</body>
